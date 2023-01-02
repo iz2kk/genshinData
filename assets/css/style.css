@@ -1,0 +1,40 @@
+.form-header h3{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(0, 168, 76);
+    padding: 10px;
+    color: #fff;
+}
+.button-group button{
+    margin: 10px auto;
+    width: 80%;
+    display: block;
+
+}
+
+.btn:active{
+    outline: 0;
+    border: 0;
+}
+
+.notify{
+    text-align: center;
+    border-radius: 8px;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.menu a{
+    background-color:rgb(0, 168, 76);
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.menu a:hover{
+  opacity: 0.8;
+}
