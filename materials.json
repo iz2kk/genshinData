@@ -4,11 +4,12 @@
 		"icon": "https://i2.wp.com/gi-builds.sfo3.digitaloceanspaces.com/common_materials/kageuchi_handguard.png",
 		"title": "kiếm cách",
 		"download":[
-			"https://raw.githubusercontent.com/iz2kk/genshinData/js/download.json"
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059415246009282610/Samurai.zip",
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059415246009282610/Samurai.zip"
 		],
-		"descrition":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+		"descrition":"",
 		"Video":[
-				"8slfFIOqzlI"
+				"aHYC-MuWc8I"
 		]
 		
 	},
@@ -17,12 +18,70 @@
 		"icon": "https://i2.wp.com/gi-builds.sfo3.digitaloceanspaces.com/common_materials/energy_nectar.png",
 		"title": "Mật Hoa Nguyên Tố",
 		"download":[
-			"https://raw.githubusercontent.com/iz2kk/genshinData/js/download.json"
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059418138288066620/HoaLuaDoiTeyvat.zip"
 		],
-		"descrition":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+		"descrition":"",
 		"Video":[
-				"4zzmKYfboDA"
-		]
+				"aHYC-MuWc8I"
+		],
+		"channel": "https://www.youtube.com/channel/UCqQqujTG6Yp6ChU7FL9Y7uw"
+		
+	},
+	{
+		"name": "nham_than_dong",
+		"icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Geoculus.png",
+		"title": "Nham Thần Đồng",
+		"download":[
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059419102885724180/NhamThanDong.rar"
+		],
+		"descrition":"",
+		"Video":[
+				"aHYC-MuWc8I"
+		],
+		"channel": "https://www.youtube.com/channel/UCqQqujTG6Yp6ChU7FL9Y7uw"
+		
+	},
+	{
+		"name": "phong_than_dong",
+		"icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Anemoculus.png",
+		"title": "Phong Thần Đồng",
+		"download":[
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059419103338696764/Phong.zip"
+		],
+		"descrition":"",
+		"Video":[
+				"aHYC-MuWc8I"
+		],
+		"channel": "https://www.youtube.com/channel/UCqQqujTG6Yp6ChU7FL9Y7uw"
+		
+	},
+	{
+		"name": "loi_than_dong",
+		"icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Electroculus.png",
+		"title": "Lôi Thần Đồng",
+		"download":[
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059419101891674142/Loi.zip"
+		],
+		"descrition":"",
+		"Video":[
+				"aHYC-MuWc8I"
+		],
+		"channel": "https://www.youtube.com/channel/UCqQqujTG6Yp6ChU7FL9Y7uw"
+		
+	},
+	{
+		"name": "thao_than_dong",
+		"icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Dendroculus.png",
+		"title": "Thảo thần đồng",
+		"download":[
+			"https://cdn.discordapp.com/attachments/1059413748680507494/1059419101203796018/Thao.zip"
+		],
+		"descrition":"",
+		"Video":[
+				"aHYC-MuWc8I"
+		],
+		"channel": "https://www.youtube.com/channel/UCqQqujTG6Yp6ChU7FL9Y7uw"
 		
 	}
+	
 ]
