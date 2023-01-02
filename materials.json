@@ -22,17 +22,17 @@
   {
     "id": "25",
     "name": "Phong_Than_Dong",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Anemoculus.png/revision/latest?cb=20201119033235",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Anemoculus.png",
     "title": "Phong Thần Đồng",
     "download": "https://cdn.discordapp.com/attachments/1059413748680507494/1059419103338696764/Phong.zip|",
-    "descrition": "<p>Phong Thần Đồng<br></p>",
+    "descrition": "Phong Thần Đồng",
     "Video": "aHYC-MuWc8I|",
     "update": "02/01/2023"
   },
   {
     "id": "26",
     "name": "Nham_Than_Dong",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Geoculus.png/revision/latest?cb=20220829224242",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Geoculus.png",
     "title": "Nham Thần Đồng",
     "download": "https://cdn.discordapp.com/attachments/1059413748680507494/1059419102885724180/NhamThanDong.rar|",
     "descrition": "Nham Thần Đồng",
@@ -42,7 +42,7 @@
   {
     "id": "29",
     "name": "Thao_Than_Dong",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Dendroculus.png/revision/latest?cb=20220824033646",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Dendroculus.png",
     "title": "Thảo Thần Đồng",
     "download": "https://cdn.discordapp.com/attachments/1059413748680507494/1059419101203796018/Thao.zip|",
     "descrition": "<p>.Thảo Thần Đồng</p>",
@@ -52,7 +52,7 @@
   {
     "id": "30",
     "name": "Loi_Than_Dong",
-    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Electroculus.png/revision/latest?cb=20210721030259",
+    "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Electroculus.png",
     "title": "Lôi Thần Đồng",
     "download": "https://cdn.discordapp.com/attachments/1059413748680507494/1059419101891674142/Loi.zip|",
     "descrition": "<p>Lôi Thần Đồng</p>",
