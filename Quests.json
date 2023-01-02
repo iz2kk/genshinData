@@ -1,6 +1,10 @@
 [
 	{
-		"ask": "Bạn là ai",
+		"ask": "Bạn là ai?",
 		"anwser": "XCV"
+	},
+	{
+		"ask": "Bố bạn là ai?",
+		"anwser": "Not me!"
 	}
 ]
