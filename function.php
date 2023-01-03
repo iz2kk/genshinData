@@ -45,6 +45,10 @@ function AddMaterial($input)
             )
         );
     }
+	if(NullCheck($descrition)){
+		$descrition = "";
+	}
+	
     //**check in  db */
     if (mysqli_num_rows(mysqli_query($conn, "SELECT name FROM materials WHERE name='$name'")) > 0) {
         return json_encode(
