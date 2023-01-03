@@ -37,7 +37,7 @@ function AddMaterial($input)
     $Video = $dataVideo;
     $update = date("d/m/Y");
     // check  input
-    if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($descrition) || NullCheck($Video) || NullCheck($update)) {
+    if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($Video) || NullCheck($update)) {
         return json_encode(
             array(
                 "status"=> "ERROR",
