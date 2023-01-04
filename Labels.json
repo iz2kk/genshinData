@@ -1,54 +1,47 @@
 [
 	{
-		"name": "Hướng-Dẫn",
-		"title":"Hướng Dẫn",
+		"name": "Genshin-Impact",
+		"title":"Hack Genshin",
 		"icon":"fas fa-question-circle",
 		"submenu":[
 			{
-				"name": "Hướng-Dẫn-Sử-Dụng-Hack",
+				"name": "Hướng-Dẫn-Sử-Dụng-Hack-Genshin",
 				"title": "Hướng Dẫn Hack",
-				"icon":"fas fa-question-circle"
+				"icon":"fas fa-hands-helping"
 
 			},
 			{
 				"name": "Hướng-Dẫn-Mod",
 				"title": "Hướng Dẫn Mod",
-				"icon":"fas fa-question-circle"
+				"icon":"fas fa-hands-helping"
+
+			},
+			{
+				"name": "Tải-Hack-GI",
+				"title": "Tải Hack",
+				"icon":"fas fa-download"
+
+			},
+			{
+				"name": "Tải-Mod-GI",
+				"title": "Tải Mod",
+				"icon":"fas fa-window"
 
 			}
 		]
 	},
 	{
-		"name": "Quê",
-		"title":"Què",
+		"name": "Hack-Game-Offline",
+		"title":"Hack Game Offline",
 		"icon":"fas fa-question-circle",
 		"submenu":[
 			{
 					
-				"name": "submenu-HD-1",
-				"title": "submenu-title-2",
-				"icon":"fas fa-question-circle"
-			},
-			{
-				"name": "submenu-HD-2",
-				"title": "submenu-title-2",
-				"icon":"fas fa-question-circle"
-			},
-			{
-				"name": "submenu-HD-3",
-				"title": "submenu-title-3",
-				"icon":"fas fa-question-circle"
-			},
-			{
-				"name": "submenu-HD-4",
-				"title": "submenu-title-4",
-				"icon":"fas fa-question-circle"
-			},
-			{
-				"name": "submenu-HD-5",
-				"title": "submenu-title-5",
+				"name": "Hack-Raft",
+				"title": "Hack Raft",
 				"icon":"fas fa-question-circle"
 			}
+			
 		]
 	}
 ]
