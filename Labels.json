@@ -5,14 +5,14 @@
 		"icon":"fas fa-question-circle",
 		"submenu":[
 			{
-				"name": "submenu-HD-1",
-				"title": "submenu-title-2",
+				"name": "Hướng-Dẫn-Sử-Dụng-Hack",
+				"title": "Hướng Dẫn Hack",
 				"icon":"fas fa-question-circle"
 
 			},
 			{
-				"name": "submenu-HD-2",
-				"title": "submenu-title-2",
+				"name": "Hướng-Dẫn-Mod",
+				"title": "Hướng Dẫn Mod",
 				"icon":"fas fa-question-circle"
 
 			}
