@@ -2,7 +2,7 @@
 	{
 		"name": "Genshin-Impact",
 		"title":"Hack Genshin",
-		"icon":"fas fa-question-circle",
+		"icon":"fas fa-gamepad",
 		"submenu":[
 			{
 				"name": "Hướng-Dẫn-Sử-Dụng-Hack-Genshin",
@@ -25,7 +25,7 @@
 			{
 				"name": "Tải-Mod-GI",
 				"title": "Tải Mod",
-				"icon":"fas fa-window"
+				"icon":"fas fa-download"
 
 			}
 		]
@@ -33,13 +33,13 @@
 	{
 		"name": "Hack-Game-Offline",
 		"title":"Hack Game Offline",
-		"icon":"fas fa-question-circle",
+		"icon":"fas fa-gamepad",
 		"submenu":[
 			{
 					
-				"name": "Hack-Raft",
-				"title": "Hack Raft",
-				"icon":"fas fa-question-circle"
+				"name": "Tải-Hack-Raft",
+				"title": "Tải Hack Raft",
+				"icon":"fas fa-download"
 			}
 			
 		]
