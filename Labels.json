@@ -6,6 +6,10 @@
 			{
 				"name": "submenu-HD-1",
 				"title": "submenu-title-2"
+			},
+			{
+				"name": "submenu-HD-2",
+				"title": "submenu-title-2"
 			}
 		]
 	},
@@ -13,7 +17,14 @@
 		"name": "Quê",
 		"title":"Què",
 		"submenu":[
-			"Hướng-Dẫn"
+			{
+				"name": "submenu-HD-1",
+				"title": "submenu-title-2"
+			},
+			{
+				"name": "submenu-HD-2",
+				"title": "submenu-title-2"
+			}
 		]
 	}
 ]
