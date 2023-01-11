@@ -90,7 +90,7 @@ function FetchData(){
      $conn = mysqli_connect($servername, $username, $password, $dbname) or die('Không thể kết nối tới database');
      mysqli_set_charset($conn, 'UTF8');
 
-     $command = "SELECT * FROM materials";
+     $command = "SELECT * FROM `materials` ORDER BY `materials`.`update` DESC";
      $arry = array();
      $query = mysqli_query($conn,$command);
     while ($row = mysqli_fetch_assoc($query)) {
