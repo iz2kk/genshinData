@@ -3,11 +3,7 @@
 <!-- include summernote css/js -->
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 
-<div class="container mt-3">
-    <div class="menu">
-        <a href="/convertJson.php">Export To Json</a>
-    </div>
-</div>
+
 
 <div class="container">
     <div class="form-add-material">

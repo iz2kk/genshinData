@@ -40,3 +40,18 @@ function RemoveLocal(key){
 function ClearLocal(key){
     localStorage.clear();
 }
+
+function ConsoleLog(logs,isLogged=true){
+   
+    if(!isLogged)
+    {
+        console.clear();
+        return;
+    }
+    if(Array.isArray(logs)){
+        console.log(...logs);
+
+    }else{
+        console.log(logs);
+    }
+}

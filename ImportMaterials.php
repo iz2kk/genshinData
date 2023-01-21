@@ -129,7 +129,7 @@
                 "Video": `${localStorage.getItem("Video")}`
             }
 
-            $.post("/ajax.php", {
+            $.post("/ajax/ajax.php", {
                 data: `${JSON.stringify(dataJson)}`
             }, function(data) {
                 // $(".notify").html(data);

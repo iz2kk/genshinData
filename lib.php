@@ -56,3 +56,8 @@ function printArr($input){
     print_r($input);
     echo "</pre>";
 }
+
+function RemoveSpace($input){
+    $str = str_replace(' ','',$input);
+    return  $str;
+}

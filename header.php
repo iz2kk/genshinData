@@ -13,6 +13,13 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="" href="./assets/css/style.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="./assets/js/lib.js"></script>
+
 </head>
 <body>
     
+<?php
+
+include_once './Navbar.php';
+?>

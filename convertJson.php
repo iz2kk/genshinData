@@ -2,7 +2,7 @@
 require_once "./function.php";
 require_once "./lib.php";
 
-$content = FetchData();
+$content = FetchMaterials();
 //printArr($content);
 $json = stripslashes(json_encode($content, JSON_UNESCAPED_UNICODE));
 
