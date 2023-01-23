@@ -114,3 +114,11 @@
     font-size: 14px;
     text-align: center;
 }
+
+.bg-primary>h3{
+	
+	background:  var(--gradient) !important;
+}
+.navbar-menu{
+	margin: 10px 0;
+}

@@ -9,6 +9,7 @@ $json = stripslashes(json_encode($content, JSON_UNESCAPED_UNICODE));
 if (isset($_GET["saveat"])) {
     // save json file
     try {
+		
         $myfile = fopen("materials.json", "w");
         fwrite($myfile, $json);
         fclose($myfile);
