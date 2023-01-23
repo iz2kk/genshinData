@@ -24,7 +24,7 @@ if (isset($_GET["saveat"])) {
 ?>
 <form action="" method="GET" class="button-group">
     <button name="saveat" class="btn btn-danger w-50 d-block">Lưu Json</button>
-</fỏ>
+</form>
 <div class="at-wrap">
     <div class="container">
 
