@@ -20,9 +20,24 @@ if(isset($_POST["item_maps"]) && isset($_POST["method"])){
 
 }   
 
+if(isset($_GET["item_id"])){
+
+    $data =  FetchMaterial($_GET["item_id"]);
+    if($data == false){
+        return;
+    }
+    $json = stripslashes(json_encode($data, JSON_UNESCAPED_UNICODE));
+    echo $json;
+    return;
+
+}   
 
 
+if(isset($_POST["update_material"])){
+    echo  UpdateMaterial($_POST["update_material"]);
+    return;
 
+}  
 
 
 

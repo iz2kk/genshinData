@@ -45,7 +45,7 @@ function removeTV ($str){
 }
 
 function NullCheck($input){
-    if($input == "" || $input == null || $input == "undefined" || $input == "null"){
+    if($input == "" || $input == null || $input == "undefined" || $input == "null" || empty($input)){
         return true;
     }
     return false;

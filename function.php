@@ -16,16 +16,21 @@ function AddMaterial($input)
 
     // printArr($input);
 
-    $dataDownload = $data["download"] . "|";
-    $dataVideo = $data["Video"] . "|";
+    // printArr($input);
+    $download = $data["download"];
+    $Video = $data["Video"];
+    if(mb_substr($data["download"], -1) != "|"){
+        $download =$data["download"] . "|";
 
+    }
+    if(mb_substr($data["Video"], -1) != "|"){
+        $Video =$data["Video"] . "|";
 
+    }
     $name = $data["name"];
     $icon = $data["icon"];
     $title = $data["title"];
-    $download = $dataDownload;
     $descrition = $data["descrition"];
-    $Video = $dataVideo;
     $update = date("d/m/Y");
     // check  input
     if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($Video) || NullCheck($update)) {
@@ -69,6 +74,81 @@ function AddMaterial($input)
 
     mysqli_close($conn);
 }
+function UpdateMaterial($input)
+{
+    //connect db
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "AkebiGC";
+
+    $conn = mysqli_connect($servername, $username, $password, $dbname) or die('Không thể kết nối tới database');
+    mysqli_set_charset($conn, 'UTF8');
+
+    $data = json_decode($input, true);
+
+    // printArr($input);
+    $download = $data["download"];
+    $Video = $data["Video"];
+    if(mb_substr($data["download"], -1) != "|"){
+        $download =$data["download"] . "|";
+
+    }
+    if(mb_substr($data["Video"], -1) != "|"){
+        $Video =$data["Video"] . "|";
+
+    }
+
+    $id = $data["id"];
+    $name = $data["name"];
+    $icon = $data["icon"];
+    $title = $data["title"];
+    
+    $descrition = $data["descrition"];
+    
+    $update = date("d/m/Y");
+    // check  input
+    if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($Video) || NullCheck($id)) {
+        return json_encode(
+            array(
+                "status" => "ERROR",
+                "msg" => "Vui lòng điền đủ thông tin!"
+            )
+        );
+    }
+    if (NullCheck($descrition)) {
+        $descrition = "";
+    }
+
+    //**check in  db */
+    if (mysqli_num_rows(mysqli_query($conn, "SELECT name FROM materials WHERE name='$name'")) > 1) {
+        return json_encode(
+            array(
+                "status" => "ERROR",
+                "msg" => "Bạn đã thêm vật phẩm <b>$title</b>  này rồi"
+            )
+        );
+    }
+    $command = "UPDATE `materials` SET `name`='$name',`icon`='$icon',`title`='$title',`download`='$download',`descrition`='$descrition',`Video`='$Video',`update`='$update' WHERE id=$id";
+    $addQuery = mysqli_query($conn, $command);
+    if ($addQuery) {
+        return json_encode(
+            array(
+                "status" => "OK",
+                "msg" => "Cập nhật <b>$title </b>thành công!"
+            )
+        );
+    } else {
+        return json_encode(
+            array(
+                "status" => "OK",
+                "msg" => "Cập nhật <b>$title</b> vào database!"
+            )
+        );
+    }
+
+    mysqli_close($conn);
+}
 
 function FetchMaterials()
 {
@@ -91,6 +171,36 @@ function FetchMaterials()
 
     return $arry;
 }
+// querry 1 material row
+function FetchMaterial($id)
+{
+    //connect db
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "AkebiGC";
+
+    $conn = mysqli_connect($servername, $username, $password, $dbname) or die('Không thể kết nối tới database');
+    mysqli_set_charset($conn, 'UTF8');
+
+    $command = "SELECT * FROM `materials` WHERE id=$id";
+    $arry = array();
+    $query = mysqli_query($conn, $command);
+
+    if(!$query){
+        return false;
+    }
+
+   if(mysqli_num_rows($query) <= 0){
+    return false;
+   }
+   $result =  mysqli_fetch_assoc($query);;
+//    printArr( $result );
+  
+   return  $result;
+}
+
+
 
 /**Maps */
 
