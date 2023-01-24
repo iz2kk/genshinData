@@ -2,5 +2,9 @@
 	{
 		"ask": "How are you?, ",
 		"anwser": "I'm fine, thank you! And you ?"
+	},
+	{
+		"ask": "Đấm nhau không? ",
+		"anwser": "Có tôi cầm súng bạn cầm dao, ok không?"
 	}
 ]
