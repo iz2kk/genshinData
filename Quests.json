@@ -1,14 +1,6 @@
 [
 	{
-		"ask": "Hack chức năng xyz...blala có bị ban không?",
-		"anwser": "Nếu đã sử dụng phần mềm thứ 3 can thiệp vào game để hack,cheat, gia tăng sản lượng vật phẩm đều sẽ có nguy cơ bị ban!"
-	},
-	{
-		"ask": "Có những chức năng nào an toàn?",
-		"anwser": "Thực ra chả có chức năng nào an toàn tuyệt đối cả. Nên là tự lựa chọn hướng đi tốt nhất cho mình...sử dụng tài khoản phụ thử từng chức năng nếu nó an toàn thì hãy đưa vào acc chính"
-	},
-	{
-		"ask": "Tool có hack được trên điện thoại không?",
-		"anwser": "Hiện tại tool này được phát hành để chạy trên máy tính, laptop và chưa có phiên bản cho điện thoại."
+		"ask": "Hello!",
+		"anwser": "How are you?, I'm fine, thank you! And you ?"
 	}
 ]
