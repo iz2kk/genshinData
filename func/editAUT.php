@@ -131,7 +131,6 @@ if ($query == false) {
             };
             // set local
             localStorage.setItem("id", id);
-
             localStorage.setItem("title", data.title);
             localStorage.setItem("name", data.title.replace(/\s/g, "_"));
             localStorage.setItem("icon", data.icon);
@@ -139,6 +138,7 @@ if ($query == false) {
             localStorage.setItem("download", data.download);
             localStorage.setItem("Video", data.Video);
             // set form
+
             //set data
             $("#name_material").val(data.title);
             $("#icon_link").val(data.icon);
