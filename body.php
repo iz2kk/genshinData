@@ -1,4 +1,4 @@
-<?php require_once './function.php' ?>
+<?php require_once  $_SERVER['DOCUMENT_ROOT'].'/function.php' ?>
 
 <!-- include summernote css/js -->
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
@@ -11,7 +11,9 @@
             <h3>Thêm materials</h3>
         </div>
         <div class="row">
+            
             <div class="col-lg-6 col-md-6">
+                
                 <div class="form-item">
                     <label for="name_material">Tên vật phẩm</label>
                     <input type="text" id="name_material" class="form-control" placeholder="Nhập tên vật phẩm">
@@ -26,6 +28,8 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
+            <?php include_once   $_SERVER['DOCUMENT_ROOT'].'/imgur/upload.php' ?>
+
                 <div class="form-item">
                     <label for="download_link">Danh sách link download</label>
                     <textarea id="download_link" class="form-control" placeholder="Dán url download vào đây" rows="10" cols=""></textarea>
@@ -35,7 +39,7 @@
                     <textarea id="video_link" class="form-control" placeholder="Dán ID youtube vào đây" rows="10" cols=""></textarea>
                 </div>
 
-
+               
             </div>
         </div>
         <div class="notify">

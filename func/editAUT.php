@@ -31,6 +31,7 @@ if ($query == false) {
         <div class="form-header bg-primary">
             <h3>Sửa materials</h3>
         </div>
+
         <div class="row">
             <div class="col-lg-6 col-md-6">
                 <div class="form-item">
@@ -47,6 +48,8 @@ if ($query == false) {
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
+            <?php include_once   $_SERVER['DOCUMENT_ROOT'].'/imgur/upload.php' ?>
+
                 <div class="form-item">
                     <label for="download_link">Danh sách link download</label>
                     <textarea id="download_link" class="form-control" placeholder="Dán url download vào đây" rows="10" cols=""></textarea>

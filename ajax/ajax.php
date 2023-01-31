@@ -1,5 +1,6 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/function.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/imgur/imgur.php';
 
 if(isset($_POST["data"])){
     echo  AddMaterial($_POST["data"]);
@@ -35,6 +36,11 @@ if(isset($_GET["item_id"])){
 
 if(isset($_POST["update_material"])){
     echo  UpdateMaterial($_POST["update_material"]);
+    return;
+
+}  
+if(isset($_FILES["image"])){
+    echo  UploadImgur($_FILES["image"]);
     return;
 
 }  

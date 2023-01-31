@@ -122,3 +122,42 @@
 .navbar-menu{
 	margin: 10px 0;
 }
+.align-center{
+    width: 100%;
+    margin: 5px auto;
+}
+.image-uploaded{
+    margin: 5px 0;
+    max-height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.image-uploaded::-webkit-scrollbar{
+    width: 0px;
+}
+.field-img{
+    background-color: #cea6ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.field-img .img-preview{
+    width: 120px;
+    height: 120px;
+    display: block;
+   
+	background:  var(--gradient) !important;
+    
+}
+.field-img .img-link{
+    width: 100%;
+    border: 0;
+    display: block;
+
+}
+.loading-notify{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 5px auto;
+}
