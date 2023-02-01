@@ -27,7 +27,6 @@ if (isset($_GET["saveat"])) {
     <button name="saveat" class="btn btn-danger w-50 d-block">Lưu Json</button>
 </form>
 <div class="at-wrap">
-    <div class="container">
 
         <div class="ant-row align-item-center">
             <?php
@@ -49,7 +48,6 @@ if (isset($_GET["saveat"])) {
             }
             ?>
         </div>
-    </div>
 </div>
 
 

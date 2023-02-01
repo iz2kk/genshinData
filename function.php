@@ -1,5 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/lib.php';
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+
 /**Materials */
 function AddMaterial($input)
 {
@@ -31,7 +33,7 @@ function AddMaterial($input)
     $icon = $data["icon"];
     $title = $data["title"];
     $descrition = $data["descrition"];
-    $update = date("d/m/Y");
+    $update = date("d/m/Y h:i:s");
     // check  input
     if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($Video) || NullCheck($update)) {
         return json_encode(
@@ -106,7 +108,7 @@ function UpdateMaterial($input)
     
     $descrition = $data["descrition"];
     
-    $update = date("d/m/Y");
+    $update = date("d/m/Y h:i:s");
     // check  input
     if (NullCheck($name) || NullCheck($icon) || NullCheck($title) || NullCheck($download) || NullCheck($Video) || NullCheck($id)) {
         return json_encode(
