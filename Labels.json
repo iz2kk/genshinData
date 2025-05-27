@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Genshin-Impact",
+		"title":"Hack Genshin",
+		"icon":"fas fa-gamepad",
+		"submenu":[
+			{
+				"name": "Hướng-Dẫn-Sử-Dụng-Hack-Genshin",
+				"title": "Hướng Dẫn Hack",
+				"icon":"fas fa-hands-helping"
+
+			},
+			{
+				"name": "Hướng-Dẫn-Mod-Genshin",
+				"title": "Hướng Dẫn Mod",
+				"icon":"fas fa-hands-helping"
+
+			},
+			{
+				"name": "Tải-Hack-GI",
+				"title": "Tải Hack",
+				"icon":"fas fa-download"
+
+			},
+			{
+				"name": "Tải-Mod-GI",
+				"title": "Tải Mod",
+				"icon":"fas fa-download"
+
+			}
+		]
+	},
+	{
+		"name": "Hack-Game-Offline",
+		"title":"Hack Game Offline",
+		"icon":"fas fa-gamepad",
+		"submenu":[
+			{
+					
+				"name": "Tải-Hack-Raft",
+				"title": "Tải Hack Raft",
+				"icon":"fas fa-download"
+			}
+			
+		]
+	}
+]

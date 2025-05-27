@@ -1,0 +1,163 @@
+:root {
+    --gradient: linear-gradient(to bottom right, #cea6ed, #b368e5);
+}
+
+
+.form-header h3 {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(0, 168, 76);
+    padding: 10px;
+    color: #fff;
+}
+
+.button-group button {
+    margin: 10px auto;
+    width: 80%;
+    display: block;
+
+}
+
+.btn:active {
+    outline: 0;
+    border: 0;
+}
+
+.notify {
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu a {
+    background-color: rgb(0, 168, 76);
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+}
+
+/*auto tele editor*/
+.ant-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.at-wrap {
+    width: 80%;
+    height: 550px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.at-wrap:hover {
+
+    overflow-y: scroll;
+}
+
+.at-wrap {
+    overflow-y: hidden !important;
+    height: 100% !important;
+}
+
+.at-wrap:hover {
+    overflow-y: scroll !important;
+}
+
+.at-wrap::-webkit-scrollbar {
+    margin-right: 5px !important;
+    border: 2px solid #F6D4FF;
+    border-radius: 10px;
+    width: 0.5em !important;
+    height: 100% !important;
+}
+
+.at-wrap::-webkit-scrollbar-button {
+    background: #F6D4FF !important;
+    width: 0;
+    height: 0;
+}
+
+.at-wrap::-webkit-scrollbar-track-piece {
+    background: #F6D4FF !important;
+}
+
+.at-wrap::-webkit-scrollbar-thumb {
+    background: #C900FF !important;
+    border-radius: 10px;
+
+}
+
+.at-gradient {
+    background: var(--gradient) !important;
+}
+
+.at-thumb img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.at-title>h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.bg-primary>h3{
+	
+	background:  var(--gradient) !important;
+}
+.navbar-menu{
+	margin: 10px 0;
+}
+.align-center{
+    width: 100%;
+    margin: 5px auto;
+}
+.image-uploaded{
+    margin: 5px 0;
+    max-height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.image-uploaded::-webkit-scrollbar{
+    width: 0px;
+}
+.field-img{
+    background-color: #cea6ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.field-img .img-preview{
+    width: 120px;
+    height: 120px;
+    display: block;
+   
+	background:  var(--gradient) !important;
+    
+}
+.field-img .img-link{
+    width: 100%;
+    border: 0;
+    display: block;
+
+}
+.loading-notify{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 5px auto;
+}
