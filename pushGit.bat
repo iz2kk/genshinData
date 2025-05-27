@@ -5,5 +5,5 @@ echo on
 
 git add *
 git commit -m "z-%mydate% %mytime%"
-git push izi js
+git push tdk js
 pause.
