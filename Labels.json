@@ -1,19 +1,19 @@
 [
 	{
-		"name": "Genshin-Impact",
-		"title":"Hack Genshin",
-		"icon":"fas fa-gamepad",
+		"name": "Window",
+		"title":"Window",
+		"icon":"fas fa-download",
 		"submenu":[
 			{
-				"name": "Hướng-Dẫn-Sử-Dụng-Hack-Genshin",
-				"title": "Hướng Dẫn Hack",
-				"icon":"fas fa-hands-helping"
+				"name": "Ghost-Win-10",
+				"title": "Ghost Window 10",
+				"icon":"fas fa-download"
 
 			},
 			{
-				"name": "Hướng-Dẫn-Mod-Genshin",
-				"title": "Hướng Dẫn Mod",
-				"icon":"fas fa-hands-helping"
+				"name": "Ghost-Win-11",
+				"title": "Ghost Window 11",
+				"icon":"fas fa-download"
 
 			},
 			{
@@ -21,24 +21,19 @@
 				"title": "Tải Hack",
 				"icon":"fas fa-download"
 
-			},
-			{
-				"name": "Tải-Mod-GI",
-				"title": "Tải Mod",
-				"icon":"fas fa-download"
-
 			}
+			
 		]
 	},
 	{
-		"name": "Hack-Game-Offline",
-		"title":"Hack Game Offline",
-		"icon":"fas fa-gamepad",
+		"name": "Cong-Cu",
+		"title":"Công cụ",
+		"icon":"fas fa-download",
 		"submenu":[
 			{
 					
-				"name": "Tải-Hack-Raft",
-				"title": "Tải Hack Raft",
+				"name": "Active-Window-Office",
+				"title": "Kích hoạt Window & Office",
 				"icon":"fas fa-download"
 			}
 			
